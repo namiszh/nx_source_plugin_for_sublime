@@ -1,0 +1,173 @@
+[
+     {
+          "caption": "DevOps",
+          "mnemonic": "d",
+          "id": "devops",
+          "children":
+          [
+               {
+                    "caption": "Source",
+                    "mnemonic": "s",
+                    "id": "devops-source",
+                    "children":
+                    [
+                         {
+                              "caption": "QW",
+                              "mnemonic": "W",
+                              "id": "devops-source-qw",
+                              "command": "dev_ops_qw"
+                         },
+
+                         {
+                              "caption": "Qwhere",
+                              "mnemonic": "H",
+                              "id": "devops-source-qwhere",
+                              "command": "dev_ops_qwhere"
+                         },
+
+                         {
+                              "caption": "QX",
+                              "mnemonic": "X",
+                              "id": "devops-source-qx",
+                              "command": "dev_ops_qx"
+                         },
+
+                         {
+                              "caption": "QI",
+                              "mnemonic": "I",
+                              "id": "devops-source-qi",
+                              "command": "dev_ops_qi"
+                         },
+
+                         {
+                              "caption": "Qtype",
+                              "mnemonic": "t",
+                              "id": "devops-source-qtype",
+                              "command": "dev_ops_qtype"
+                         },
+
+                         {
+                              "caption": "STY",
+                              "mnemonic": "s",
+                              "id": "devops-source-sty",
+                              "command": "dev_ops_sty"
+                         }
+                    ]
+               },
+
+               {
+                    "caption": "Build",
+                    "mnemonic": "b",
+                    "id": "devops-build",
+                    "children":
+                    [
+                         {
+                              "caption": "Compile",
+                              "mnemonic": "C",
+                              "id": "devops-build-compile",
+                              "command": "dev_ops_compile"
+                         },
+
+                         {
+                              "caption": "Schemas",
+                              "mnemonic": "S",
+                              "id": "devops-build-schema",
+                              "command": "dev_ops_schema"
+                         },
+
+                         {
+                              "caption": "JA",
+                              "mnemonic": "J",
+                              "id": "devops-build-ja",
+                              "command": "dev_ops_ja"
+                         },
+
+                         {
+                              "caption": "Link",
+                              "mnemonic": "l",
+                              "id": "devops-build-link",
+                              "command": "dev_ops_link"
+                         },
+
+                         {
+                              "caption": "Build All",
+                              "mnemonic": "a",
+                              "id": "devops-build-all",
+                              "command": "dev_ops_buildall"
+                         },
+
+                         {
+                              "caption": "Nuke",
+                              "mnemonic": "n",
+                              "id": "devops-build-nuke",
+                              "command": "dev_ops_nuke"
+                         },
+
+                         {
+                              "caption": "QAZ",
+                              "mnemonic": "q",
+                              "id": "devops-build-qaz",
+                              "command": "dev_ops_qaz"
+                         },
+
+                         {
+                              "caption": "qalang",
+                              "mnemonic": "g",
+                              "id": "devops-build-qalang",
+                              "command": "dev_ops_qalang"
+                         }
+                    ]
+               },
+
+               {
+                    "caption": "DMS",
+                    "mnemonic": "d",
+                    "id": "devops-dms",
+                    "children":
+                    [
+                         {
+                              "caption": "Check out",
+                              "mnemonic": "O",
+                              "id": "devops-dms-checkout",
+                              "command": "dev_ops_checkout"
+                         },
+
+                         {
+                              "caption": "Check in",
+                              "mnemonic": "I",
+                              "id": "devops-dms-checkin",
+                              "command": "dev_ops_checkin"
+                         },
+
+                         {
+                              "caption": "Check point",
+                              "mnemonic": "P",
+                              "id": "devops-dms-checkpoint",
+                              "command": "dev_ops_checkpoint"
+                         },
+
+                         {
+                              "caption": "Uncheck out",
+                              "mnemonic": "u",
+                              "id": "devops-dms-uncheckout",
+                              "command": "dev_ops_uncheckout"
+                         },
+
+                         {
+                              "caption": "Check out all",
+                              "mnemonic": "A",
+                              "id": "devops-dms-checkout-all",
+                              "command": "dev_ops_check_out_all"
+                         },
+
+                         {
+                              "caption": "Uncheck out unmodified",
+                              "mnemonic": "U",
+                              "id": "devops-dms-uncheckout-unmodified",
+                              "command": "dev_ops_uncheckout_unmodified"
+                         }
+                    ]
+               }
+          ]
+     }
+]
