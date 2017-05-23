@@ -93,11 +93,13 @@
                     [
                          {
                               "caption": "File Header",
+                              "mnemonic": "H",
                               "command": "file_header"
                          },
 
                          {
-                              "caption": "History",
+                              "caption": "History Line",
+                              "mnemonic": "L",
                               "command": "history_line"
                          }
                     ]
