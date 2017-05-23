@@ -1,5 +1,10 @@
-# nx_source_plugin_for_sublime
-A sublime plugin that used to query source code in nx development
+# Sublime Plugin for NX Development
+
+This plugin contains below functionality:
+1. code templates.
+2. search code
+3. all kinds of build command
+4. all kinds of file operation command
 
 The purpose of this project:
 1. learn python
