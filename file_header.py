@@ -9,7 +9,7 @@ class FileHeaderCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         snippet = 'Packages/nxdev/file_header.sublime-snippet'
         dirName, baseName = os.path.split(self.view.file_name())
-        shortName = os.path.splitext(baseName)[0].strip().upper()
+        shortName = os.path.splitext(baseName)[0].strip()
         extName = os.path.splitext(baseName)[1][1:].strip().upper()
         if extName == 'H': extName = 'HHH'
 
