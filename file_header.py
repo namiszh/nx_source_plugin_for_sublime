@@ -22,7 +22,7 @@ class FileHeaderCommand(sublime_plugin.TextCommand):
 
         today = datetime.date.today()
         year = today.year
-        date = today.strftime("%d-%B-%Y")
+        date = today.strftime("%d-%b-%Y")
         userName = sublime.load_settings(SETTINGS_FILE).get("display_name")
         # print(userName)
         userName += ' ' *(24 - len(userName) ) # make sure the indent is correct no matter the display name length is

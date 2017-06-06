@@ -11,7 +11,7 @@ class HistoryLineCommand(sublime_plugin.TextCommand):
         region = self.view.find("$HISTORY$", 0, sublime.LITERAL)
         if region:
             today = datetime.date.today()
-            date = today.strftime("%d-%B-%Y")
+            date = today.strftime("%d-%d-%Y")
 
             userName = sublime.load_settings(SETTINGS_FILE).get("display_name")
             userName += ' ' *(24 - len(userName) ) # make sure the indent is correct no matter the display name length is
