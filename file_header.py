@@ -21,7 +21,7 @@ class FileHeaderCommand(sublime_plugin.TextCommand):
         library = parentDirs[parentDirs.index("src")+1].upper()
 
         today = datetime.date.today()
-        year = today.year
+        year = today.strftime("%Y")
         date = today.strftime("%d-%b-%Y")
         userName = sublime.load_settings(SETTINGS_FILE).get("display_name")
         # print(userName)
