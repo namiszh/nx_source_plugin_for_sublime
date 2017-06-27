@@ -81,7 +81,15 @@
                               // //"mnemonic": "s",
                               "id": "devops-query-sty",
                               "command": "sty"
-                         }
+                         },
+
+                         {
+                              "caption": "Stl Containers",
+                              // //"mnemonic": "s",
+                              "id": "devops-query-stl",
+                              "command": "list_stl"
+                         },
+
                     ]
                },
 
@@ -101,7 +109,25 @@
                               "caption": "History Line",
                               "mnemonic": "L",
                               "command": "history_line"
-                         }
+                         },
+
+                         {
+                              "caption": "Include header",
+                              "mnemonic": "I",
+                              "command": "include_header"
+                         },
+
+                         {
+                              "caption": "Sort headers",
+                              "mnemonic": "S",
+                              "command": "sort_headers"
+                         },
+
+                         {
+                              "caption": "PR comment",
+                              "mnemonic": "P",
+                              "command": "pr_comment"
+                         },
                     ]
                },
                {

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-/*HEAD $FILE_NAME $EXT_NAME $LIB_NAME*/
+/*HEAD $FILE_NAME $EXT_NAME $LIB_NAME */
 /*=================================================================================================
 
                         Copyright (c) $YEAR Siemens Industry Software Inc.
@@ -11,7 +11,7 @@ File description:
     $2
 
 ===================================================================================================
-   Date      Name                    Description of Change
+   Date           Name                    Description of Change
 $DATE  $USER_NAME${1:Created}
 \$HISTORY\$ 
 ===================================================================================================*/
