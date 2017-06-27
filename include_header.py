@@ -15,6 +15,7 @@ class IncludeHeaderCommand(sublime_plugin.TextCommand):
 class IncludeHeaderInternalCommand(sublime_plugin.TextCommand):
     def run(self, edit, text):
         pos = self.get_last_include_line()
+        text = '/'.join(text.split('\\'))
         line = "\n#include <" + text + ">"
         self.view.insert(edit, pos, line)
 
