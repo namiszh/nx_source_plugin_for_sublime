@@ -11,10 +11,10 @@ This plugin contains below functionality:
 **How**
 1. Copy this folder to *'\Data\Packages\'* of your sublime text installation directory.  
    After copy, the folder should be like this:  
-     *\Data\Packages\nx_sublime_plugin*
+       *\Data\Packages\nx_sublime_plugin*
 
 2. Rename 'nx_sublime_plugin' to 'nxdev'. Then the result should be:  
-     *\Data\Packages\nxdev*
+       *\Data\Packages\nxdev*
 
 
 **Why**
